@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link
+        href="https://fonts.googleapis.com/css?family=Crimson+Text:600,600i,700i|Mada:400,500,700|Poppins:300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177239609-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-177239609-1');
+
+        window.addEventListener('scroll', reveal);
+
+        function reveal() {
+            var reveals = document.querySelectorAll('.reveal');
+
+
+            for (var i = 0; i < reveals.length; i++) {
+                var windowheight = window.innerHeight;
+                var revealtop = reveals[i].getBoundingClientRect().top;
+                var revealpoint = 150;
+
+                if (revealtop < windowheight - revealpoint) {
+                    reveals[i].classList.add('active');
+                }
+                else {
+                    reveals[i].classList.remove('active');
+
+                }
+            }
+        }
+
+    </script>
+
+    <title>Rabbit Hole</title>
+</head>
+
+<body>
+
+    <header class="home container-outer" id="home">
+        <div class="wrapper">
+            <nav>
+                <ul>
+                    <li><a href="#home" aria-label="go to home section.">home</a></li>
+                    <li><a href="#work" aria-label="go to work section.">work</a></li>
+                    <li><a href="#contact" aria-label="go to contact section.">contact</a></li>
+                </ul>
+            </nav>
+            <p class="first">
+                <br>‍Welcome! Looks like you need distraction. Enjoy this gaming world! 💻
+
+            </p>
+        </div>
+        <!-- /.wrapper-->
+    </header>
+    <!-- <div class="angle angle1"></div> -->
+    <main>
+        <!-- <div class="angle angle1"></div> -->
+
+        <!------ WORK SECTION ------>
+        <section class="work " id="work">
+            <div class="wrapper reveal">
+                <h2 class="light">Rabbit Hole </h2>
+                <h3></h3>
+
+                <!--- WORK ZERO --->
+                <div class="container-work">
+                    <div class="container-img">
+                        <img src="./assets/drumKit.png">
+                    </div>
+                    <div class="container-text">
+                        <h4>Drum Kit</h4>
+                        <p>Clear out your frustation, and make banger beats with this drum kit</p>
+
+                        <div class="container-work-btns">
+                            <a href="https://garglakshay.github.io/Drum-kit/" target="_blank" class="btn btn-view-work">
+                                <span>See here</span>
+                                <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--- WORK THREE --->
+                <div class="container-work">
+                    <div class="container-img">
+                        <img src="./assets/memory.jfif">
+                    </div>
+                    <div class="container-text">
+                        <h4>Memory Game</h4>
+                        <p>Can you match these fruits images?</p>
+
+                        <div class="container-work-btns">
+                            <a href="http://mmenavas.github.io/memory-game" target="_blank"
+                                class="btn btn-view-work">
+                                <span>See here</span>
+                                <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--- WORK THREE --->
+                <div class="container-work">
+                    <div class="container-img">
+                        <img src="./assets/doodle.jfif">
+                    </div>
+                    <div class="container-text">
+                        <h4>Doodlee</h4>
+                        <p>Doodle it out and ehile you are at it help out this neural network</p>
+
+                        <div class="container-work-btns">
+                            <a href="https://quickdraw.withgoogle.com/#" target="_blank"
+                                class="btn btn-view-work">
+                                <span>See here</span>
+                                <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!--- WORK THREE --->
+                <div class="container-work">
+                    <div class="container-img">
+                        <img src="./assets/cuties.jfif">
+                    </div>
+                    <div class="container-text">
+                        <h4>Cute Animals</h4>
+                        <p>Collection of Videos to make your day brighter and bearable.</p>
+
+                        <div class="container-work-btns">
+                            <a href="https://youtube.com/playlist?list=PLfW_l_M_EXMqJt2PKk-W_uV8IGI4ZgWLy" target="_blank"
+                                class="btn btn-view-work">
+                                <span>See here</span>
+                                <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- WORK ONE -->
+                <div class="container-work">
+                    <div class="container-img">
+                        <img src="./assets/hugs.jfif">
+                    </div>
+                    <div class="container-text">
+                        <h4>Warm Hugs</h4>
+                        <p>Everyone needs motivation on hardest days. You did well today!! Open this link and reward yourself! <br>
+                        </p>
+
+
+                        <div class="container-work-btns">
+                            <a href="https://www.youtube.com/playlist?list=PLfW_l_M_EXMpRxrGKidN4GZmvKrfzMjsR" target="_blank" class="btn btn-view-work">
+                                <span>See here</span>
+                                <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--- WORK TWO --->
+                <div class="container-work">
+                    <div class="container-img">
+                        <img src="./assets/spotify.jfif">
+                    </div>
+                    <div class="container-text">
+                        <h4>Comfort playlist</h4>
+                        <p>Hear to relaxing music shuffle through it and relax.</p>
+
+                        <div class="container-work-btns">
+                            <a href="https://open.spotify.com/embed/playlist/7gZwZYxU0VTN1Ub6Td011s?utm_source=generator" target="_blank"
+                                aria-label="open link to the Absolutely Amazing Newspaper Apparatus app."
+                                class="btn btn-view-work">
+                                <span>See here</span>
+                                <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+
+        <!------ CONTACT SECTION ------>
+        <section class="contact " id="contact">
+            <div class="wrapper reveal">
+                <h2>contact</h2>
+                <h3>get in touch</h3>
+                <div class="container-content ">
+                    <div class="container-form ">
+                        <p class="bold">Drop a mail</p>
+                        <p>
+                            <a href="mailto: bhavish3443@gmail.com">bhavish3443@gmail.com</a>
+                        </p>
+
+                    </div>
+
+                    <div class="container-social">
+                        <p class="bold">Feeling social? Find me on these online spaces too!</p>
+                        <div class="container-social-i">
+                            <ul>
+                                <!-- LINKEDIN -->
+                                <li>
+                                    <a href="http://www.linkedin.com/in/bhavish3443"
+                                        target="_blank "><i class="fab fa-linkedin" aria-hidden="true"></i></i><span
+                                            class="visually-hidden">Linked In</span></a>
+                                </li>
+
+                                <!-- GITHUB -->
+                                <li>
+                                    <a href="https://github.com/Bhvish" target="_blank"><i class="fab fa-github "
+                                            aria-hidden="true "></i><span class="visually-hidden ">GitHub</span></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!------ JAVASCRIPT ------>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+
+
+</body>
+
+</html>
